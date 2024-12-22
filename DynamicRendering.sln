@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intact_DynamicRendering", "Intact.DynamicRendering\Intact_DynamicRendering.csproj", "{5582D997-2168-4BBB-B6D3-C95BA40F0649}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3554A740-1CCE-40A3-8F96-E6BFC7FD15D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3554A740-1CCE-40A3-8F96-E6BFC7FD15D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3554A740-1CCE-40A3-8F96-E6BFC7FD15D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3554A740-1CCE-40A3-8F96-E6BFC7FD15D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{619E536D-3A6E-4442-8ACC-E1FFF1CFDFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{619E536D-3A6E-4442-8ACC-E1FFF1CFDFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{619E536D-3A6E-4442-8ACC-E1FFF1CFDFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{619E536D-3A6E-4442-8ACC-E1FFF1CFDFA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5582D997-2168-4BBB-B6D3-C95BA40F0649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5582D997-2168-4BBB-B6D3-C95BA40F0649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5582D997-2168-4BBB-B6D3-C95BA40F0649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5582D997-2168-4BBB-B6D3-C95BA40F0649}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABA2409C-DEBC-4D3E-B83C-3533CDE2DF91}
+	EndGlobalSection
+EndGlobal

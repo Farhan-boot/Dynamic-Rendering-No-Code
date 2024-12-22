@@ -1,0 +1,28 @@
+image: mcr.microsoft.com/dotnet/sdk:8.0.100
+
+pipelines:
+  pull-requests:
+    "**":
+      - step:
+          name: Build and Test on Pull Request
+          caches:
+            - dotnetcore
+          script:
+            - dotnet restore
+            - dotnet build
+            - dotnet test --verbosity normal --logger "console;verbosity=normal" --filter "FullyQualifiedName~!Intact.DynamicRendering.UnitTests.Functions.AtVantageApiTests.Run_ShouldReturnExpectedOutput"
+          artifacts:
+            - test-results.trx
+
+  branches:
+    main:
+      - step:
+          name: Build and Test on Merge to Main
+          caches:
+            - dotnetcore
+          script:
+            - dotnet restore
+            - dotnet build
+            - dotnet test --verbosity normal --logger "console;verbosity=normal" --filter "FullyQualifiedName~!Intact.DynamicRendering.UnitTests.Functions.AtVantageApiTests.Run_ShouldReturnExpectedOutput"
+          artifacts:
+            - test-results.trx

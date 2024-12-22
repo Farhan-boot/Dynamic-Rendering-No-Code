@@ -1,0 +1,1 @@
+these are C# classes to deserialize the @Vantage JSON into
